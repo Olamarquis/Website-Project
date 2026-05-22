@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Modern Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Lumina.</a>
+            
+            <nav class="desktop-nav">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+                <a href="#book" class="btn btn-primary nav-cta">Book Now</a>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu-overlay"></div>
+    <nav class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#book" class="btn btn-primary mobile-cta">Book Now</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-headline">Discover a New Standard of Living</h1>
+                    <p class="hero-subheadline">
+                        Immerse yourself in unparalleled comfort and modern design. Experience spaces meticulously crafted to elevate your everyday moments into extraordinary memories.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#explore" class="btn btn-primary">Explore View</a>
+                        <a href="#contact" class="btn btn-ghost">Contact Us</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="image-card">
+                        <div class="card-inner-element"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
